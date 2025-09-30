@@ -1,45 +1,77 @@
 .box {
   width: 1200px;
   margin: 0 auto;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 70px;
+  padding-right: 70px;
 }
 
 .header-box {
   display: flex;
   align-items: center;
-  background-color: deeppink;
+  background-color: rgb(83, 57, 30);
 }
 
 .header-nav-list {
   display: flex;
-  gap: 15px;
+  gap: 18px;
 }
 
 .header-nav-link {
-  color: rgb(12, 22, 155);
+  color: rgb(239, 185, 8);
 }
 
 .header-list {
   display: flex;
-  gap: 15px;
+  gap: 18px;
 }
 
 .header-mail {
-  color: rgb(12, 22, 155);
-  font-size: 15px;
+  color: rgb(239, 185, 8);
+  font-size: 18px;
 }
 
 .header-tel {
-  color: rgb(12, 22, 155);
+  color: rgb(239, 185, 8);
   font-size: 15px;
 }
 
 .header-title {
-  color: darkmagenta;
+  color: rgb(236, 111, 8);
   font-family: fantasy;
   font-size: 60px;
   margin: auto;
   font-style: italic;
   text-shadow: 4px 4px 7px black;
 }
+
+.footer-box {
+  background-color: rgb(83, 57, 30);
+  display: flex;
+  gap: 50px;
+}
+
+.footer-title {
+  color:  rgb(236, 111, 8);
+  font-family: fantasy;
+  text-shadow: 4px 4px 7px black;
+  font-size: 30px;
+}
+
+.footer-subtitle {
+    color:  rgb(236, 111, 8);
+  font-family: fantasy;
+  text-shadow: 4px 4px 7px black;
+  font-size: 30px;
+}
+
+.footer-apps-list {
+  display: flex;
+  gap: 30px;
+}
+
+.footer-photo {
+  width: 25px;
+  height: 25px;
+}
+
+
