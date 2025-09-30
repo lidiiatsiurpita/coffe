@@ -1,4 +1,4 @@
- .box {
+.box {
   width: 1200px;
   margin: 0 auto;
   padding-left: 15px;
@@ -6,40 +6,40 @@
 }
 
 .header-box {
-   display: flex;
+  display: flex;
   align-items: center;
   background-color: deeppink;
-} 
+}
 
 .header-nav-list {
-    display: flex;
-    gap: 15px;
+  display: flex;
+  gap: 15px;
 }
 
 .header-nav-link {
-    color: rgb(12, 22, 155);
+  color: rgb(12, 22, 155);
 }
 
 .header-list {
- display: flex;
- gap: 15px;
+  display: flex;
+  gap: 15px;
 }
 
 .header-mail {
-    color: rgb(12, 22, 155);
-    font-size: 15px;
+  color: rgb(12, 22, 155);
+  font-size: 15px;
 }
 
 .header-tel {
-    color: rgb(12, 22, 155);
-    font-size: 15px;
+  color: rgb(12, 22, 155);
+  font-size: 15px;
 }
 
 .header-title {
-    color: darkmagenta;
-    font-family: fantasy;
-    font-size: 60px;
-    margin: auto;
-    font-style: italic;
-    text-shadow: 4px 4px 7px black;
+  color: darkmagenta;
+  font-family: fantasy;
+  font-size: 60px;
+  margin: auto;
+  font-style: italic;
+  text-shadow: 4px 4px 7px black;
 }
