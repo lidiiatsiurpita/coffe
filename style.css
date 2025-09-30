@@ -1,35 +1,45 @@
-.header {
+ .box {
+  width: 1200px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.header-box {
+   display: flex;
+  align-items: center;
+  background-color: deeppink;
+} 
+
+.header-nav-list {
     display: flex;
-    background-color: rgb(111, 54, 32);
+    gap: 15px;
 }
 
-.logo {
- width: 200px;
- height: 100px;
-  display: flex;
-    align-items: center;
+.header-nav-link {
+    color: rgb(12, 22, 155);
 }
 
-.name {
+.header-list {
+ display: flex;
+ gap: 15px;
+}
+
+.header-mail {
+    color: rgb(12, 22, 155);
+    font-size: 15px;
+}
+
+.header-tel {
+    color: rgb(12, 22, 155);
+    font-size: 15px;
+}
+
+.header-title {
+    color: darkmagenta;
+    font-family: fantasy;
+    font-size: 60px;
     margin: auto;
-     display: flex;
-    align-items: center;
-}
-
-.mail {
- color: black;
-}
-
-.tel {
- color: black;
-}
-
-.list {
-    gap: 30px;
-    display: flex;
-}
-
-.item {
-    display: flex;
-    align-items: center;
+    font-style: italic;
+    text-shadow: 4px 4px 7px black;
 }
