@@ -54,6 +54,22 @@
   text-shadow: 4px 4px 7px black;
 }
 
+/* main */
+.kornelia {
+  font-size: 260px;
+  font-family: fantasy;
+  text-align: center;
+}
+
+.main-box{
+  background-color: rgb(237, 153, 79);
+}
+/* cena */
+
+
+
+
+
 /* footer */
 
 .footer-box {
