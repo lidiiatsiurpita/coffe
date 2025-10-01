@@ -1,3 +1,9 @@
+:root {
+  --subtitle-color: rgb(239, 185, 8);
+  --background-color: rgb(83, 57, 30);
+  --title-color: rgb(236, 111, 8);
+}
+
 .box {
   width: 1200px;
   margin: 0 auto;
@@ -5,10 +11,14 @@
   padding-right: 70px;
 }
 
+/* header */
+
 .header-box {
   display: flex;
   align-items: center;
-  background-color: rgb(83, 57, 30);
+  background-color: var(--background-color);
+  padding-bottom: 50px;
+  padding-top: 50px;
 }
 
 .header-nav-list {
@@ -17,7 +27,7 @@
 }
 
 .header-nav-link {
-  color: rgb(239, 185, 8);
+  color: var(--subtitle-color);
 }
 
 .header-list {
@@ -26,17 +36,17 @@
 }
 
 .header-mail {
-  color: rgb(239, 185, 8);
+  color: var(--subtitle-color);
   font-size: 18px;
 }
 
 .header-tel {
-  color: rgb(239, 185, 8);
+  color: var(--subtitle-color);
   font-size: 15px;
 }
 
 .header-title {
-  color: rgb(236, 111, 8);
+  color: var(--title-color);
   font-family: fantasy;
   font-size: 60px;
   margin: auto;
@@ -44,34 +54,60 @@
   text-shadow: 4px 4px 7px black;
 }
 
+/* footer */
+
 .footer-box {
-  background-color: rgb(83, 57, 30);
+  background-color: var(--background-color);
   display: flex;
   gap: 50px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .footer-title {
-  color:  rgb(236, 111, 8);
+  color: var(--title-color);
   font-family: fantasy;
   text-shadow: 4px 4px 7px black;
   font-size: 30px;
+  margin-bottom: 30px;
 }
 
 .footer-subtitle {
-    color:  rgb(236, 111, 8);
+  color: var(--title-color);
   font-family: fantasy;
   text-shadow: 4px 4px 7px black;
   font-size: 30px;
+  padding-bottom: 30px;
 }
 
 .footer-apps-list {
+  padding-left: 100px;
   display: flex;
-  gap: 30px;
+  gap: 70px;
 }
 
 .footer-photo {
-  width: 25px;
-  height: 25px;
+  width: 40px;
+  height: 40px;
 }
 
+.footer-item {
+  color: var(--subtitle-color);
+}
 
+.footer-insta {
+   filter: invert(72%) sepia(83%) saturate(1866%) hue-rotate(2deg)
+    brightness(101%) contrast(95%); 
+
+}
+
+.footer-facebook {
+   filter: invert(72%) sepia(83%) saturate(1866%) hue-rotate(2deg)
+    brightness(101%) contrast(95%); 
+}
+
+.footer-list {
+  display: flex;
+  gap: 15px;
+  flex-direction: column;
+}
